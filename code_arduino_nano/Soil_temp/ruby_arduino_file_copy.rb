@@ -9,19 +9,27 @@
 
 
 #Source
-source1 = File.readlines(Dir.pwd+"/Soil_temp_v1.cpp")
-
+source1 = File.readlines(Dir.pwd+"/Soil_temp_v2.cpp")
+source2 = File.readlines(Dir.pwd+"/libraries/arduino_nano_DFR0198.cpp")
+source3 = File.readlines(Dir.pwd+"/libraries/arduino_nano_DFR0198.h")
 
 
 #Destination files
-destionation1 = "/Users/vincentgosselin/Documents/Arduino/Soil_temp_v1/Soil_temp_v1.ino"
+destionation1 = "/Users/vincentgosselin/Documents/Arduino/Soil_temp_v2/Soil_temp_v2.ino"
+destionation2 = "/Users/vincentgosselin/Documents/Arduino/libraries/arduino_nano_DFR0198/arduino_nano_DFR0198.cpp"
+destionation3 = "/Users/vincentgosselin/Documents/Arduino/libraries/arduino_nano_DFR0198/arduino_nano_DFR0198.h"
 
 
 #COPY-PASTE
 File.open(destionation1, "w") do |f|
 	f.puts source1
 end
-
+File.open(destionation2, "w") do |f|
+	f.puts source2
+end
+File.open(destionation3, "w") do |f|
+	f.puts source3
+end
 
 puts "COPY-PASTE DONE"
 

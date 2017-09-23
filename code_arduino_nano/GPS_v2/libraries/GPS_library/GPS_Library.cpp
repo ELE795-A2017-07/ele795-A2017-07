@@ -1,4 +1,4 @@
-#include "GPS_v2_library.h"
+#include "GPS_Library.h"
 
 GPS::GPS(int RX, int TX){
 

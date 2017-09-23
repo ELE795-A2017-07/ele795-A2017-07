@@ -1,10 +1,10 @@
-//GPS_v2_library.h library.
+//GPS_library.h library.
 
-#define GPS_v2_library_h
+#define GPS_library_h
 
 #include "Arduino.h"
 #include <SoftwareSerial.h>
-#include <TinyGPS_v2.h>
+#include <TinyGPS.h>
 
 class GPS{
 

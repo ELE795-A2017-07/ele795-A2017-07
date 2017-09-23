@@ -9,16 +9,20 @@
 
 
 #Source
-source = File.readlines(Dir.pwd+"/Arduino_LoRa_Ping_Pong.cpp")
+source1 = File.readlines(Dir.pwd+"/Arduino_LoRa_Ping_Pong_v2.cpp")
+source2 = File.readlines(Dir.pwd+"/libraries/Lora_simplified/Lora_simplified.h")
 
 
 #Destination files
-destionation = "/Users/vincentgosselin/Documents/Arduino/arduino_nano_Beliot/arduino_nano_Beliot.ino"
-
+destionation1 = "/Users/vincentgosselin/Documents/Arduino/Arduino_LoRa_Ping_Pong_v2/Arduino_LoRa_Ping_Pong_v2.ino"
+destionation2 = "/Users/vincentgosselin/Documents/Arduino/libraries/Lora_simplified/Lora_simplified.h"
 
 #COPY-PASTE
-File.open(destionation, "w") do |f|
-	f.puts source
+File.open(destionation1, "w") do |f|
+	f.puts source1
+end
+File.open(destionation2, "w") do |f|
+	f.puts source2
 end
 
 puts "COPY-PASTE DONE"

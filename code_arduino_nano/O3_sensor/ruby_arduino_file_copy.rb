@@ -9,19 +9,27 @@
 
 
 #Source
-source1 = File.readlines(Dir.pwd+"/O3_sensor_v1.cpp")
-
+source1 = File.readlines(Dir.pwd+"/O3_sensor_v2.cpp")
+source2 = File.readlines(Dir.pwd+"/libraries/O3_spec_sensor/O3_spec_sensor.cpp")
+source3 = File.readlines(Dir.pwd+"/libraries/O3_spec_sensor/O3_spec_sensor.h")
 
 
 #Destination files
-destionation1 = "/Users/vincentgosselin/Documents/Arduino/O3_sensor_v1/O3_sensor_v1.ino"
+destionation1 = "/Users/vincentgosselin/Documents/Arduino/O3_sensor_v2/O3_sensor_v2.ino"
+destionation2 = "/Users/vincentgosselin/Documents/Arduino/libraries/O3_spec_sensor/O3_spec_sensor.cpp"
+destionation3 = "/Users/vincentgosselin/Documents/Arduino/libraries/O3_spec_sensor/O3_spec_sensor.h"
 
 
 #COPY-PASTE
 File.open(destionation1, "w") do |f|
 	f.puts source1
 end
-
+File.open(destionation2, "w") do |f|
+	f.puts source2
+end
+File.open(destionation3, "w") do |f|
+	f.puts source3
+end
 
 puts "COPY-PASTE DONE"
 

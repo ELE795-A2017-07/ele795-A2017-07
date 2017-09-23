@@ -1,0 +1,17 @@
+PCB specs
+-2 layers external (Top, bottom)
+-FR4 (130TG)
+-Copper weight external: 1 oz/ft2 
+-Core thickness:0.063"
+-Legend color: white
+-Mask color: green
+-Finish: Lead-free HASL
+
+https://www.eeweb.com/electronics-quiz/calculate-the-capacitance-of-pcb-planes
+PCB cap: 1pF
+-Solder mask min: 0.005"
+-Traces et clearance min: 0.005"
+
+http://circuitcalculator.com/wordpress/2006/01/31/pcb-trace-width-calculator/
+
+

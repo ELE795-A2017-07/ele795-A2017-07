@@ -1,0 +1,11 @@
+Regulateur 3V valeurs theoriques:
+R1 = 453k
+R2 = 91k
+C1 = 35.13pF
+C2 = 174.9pF
+
+Regulateur 3.3V valeurs theoriques:
+R1 = 510k
+R2 = 91k
+C1 = 31.21pF
+C2 = 174.9pF

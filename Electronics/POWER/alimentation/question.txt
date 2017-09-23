@@ -1,0 +1,3 @@
+Question climats:
+- Quelles sont les heures d'ensoleillement dans le vignoble?
+- Durant quelle periode de l'annee pensez-vous deployer les sondes? Pour connaitre    	les moyennes de temperature

@@ -1,0 +1,28 @@
+Drill report for /home/xavier/Documents/ETS/PFE/alimentation/alim/alim.kicad_pcb
+Created on Tue 11 Jul 2017 05:13:09 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'alim-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.60mm  0.024"  (10 holes)
+    T2  0.70mm  0.028"  (8 holes)
+    T3  0.80mm  0.031"  (6 holes)
+    T4  1.02mm  0.040"  (4 holes)
+    T5  1.14mm  0.045"  (16 holes)
+    T6  1.25mm  0.049"  (17 holes)
+
+    Total plated holes count 61
+
+
+Drill file 'alim-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.20mm  0.087"  (1 hole)
+
+    Total unplated holes count 1

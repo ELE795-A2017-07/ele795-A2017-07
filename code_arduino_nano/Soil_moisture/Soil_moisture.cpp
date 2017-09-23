@@ -1,22 +1,18 @@
-//Soil_moisture_v1.cpp
+//Soil_moisture_v2.cpp by Vincent Gosselin, 2017.
 
-int analogPin1 = 1;
+//Custom library for https://www.dfrobot.com/product-1385.html
+#include "arduino_soil_moisture.h"
+
+soil_moisture soil_moisture(1);//Pin A1.
 
 void setup() {
-// put your setup code here, to run once:
 	Serial.begin(38400);
 	Serial.println("Hello");
 }
 
 void loop() {
-// put your main code here, to run repeatedly:
 	delay(1000);
-	int adc_value = analogRead(analogPin1);
-	//Serial.println(adc_value);
-
-	//Formula to convert ADC value to moisture (Relative Humidity (RH%)). 
-	//Sensor calibrated at 34% in AIR, 100% in WATER. Theoretical 0% at 702 adc value.
-	unsigned int moisture = ((unsigned int)(702-adc_value)*100)/432.0;
-	Serial.println(moisture);
-
+	soil_moisture.scan();
+	delay(1000);
+	Serial.print("Soil moisture is : ");Serial.println(soil_moisture.get_moisture(),DEC);
 }

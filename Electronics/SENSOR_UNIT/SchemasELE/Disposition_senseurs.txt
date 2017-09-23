@@ -1,0 +1,15 @@
+DHT11 (Air humidite + temperature): plus loin des autres elements chauffant possible, on board.
+
+Senseur lux: en dehors du boitier et protection étanche. Cablé au board?
+
+Senseur O3: dans le boitier, cablé au board?
+
+Senseur CO: dans le boitier, cablé au board.
+
+Senseur humidité sol: en dehors du boitier, cablé au board.
+
+GPS: dans le boitier, cablé au board.
+
+Senseur dust: dans le boitier, cablé au board.
+
+Senseur temperature sol: en dehors du boitier, cablé au board.

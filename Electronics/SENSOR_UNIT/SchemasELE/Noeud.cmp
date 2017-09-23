@@ -1,0 +1,155 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon 17 Jul 2017 08:09:40 PM EDT
+
+BeginCmp
+TimeStamp = 596D5C67
+Path = /59690C54
+Reference = C1;
+ValeurCmp = 220u;
+IdModule  = pfe:Axial_cap_220u;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5C75
+Path = /59694889
+Reference = COS1;
+ValeurCmp = CO_Sensor_MQ7;
+IdModule  = pfe:Block_terminal_X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5C84
+Path = /59388958
+Reference = DustS1;
+ValeurCmp = IR_Dust_Sensor_GP2Y1023AU0F;
+IdModule  = pfe:Block_terminal_X5;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5C95
+Path = /59388957
+Reference = GPS1;
+ValeurCmp = GPS_VK2828U7G5LF;
+IdModule  = pfe:Block_terminal_X6;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5CA9
+Path = /59654F58
+Reference = J1;
+ValeurCmp = Alim;
+IdModule  = pfe:Header_X12_0p1_power;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5CBF
+Path = /5938895C
+Reference = Lora1;
+ValeurCmp = SX1276_Lora;
+IdModule  = pfe:SX1276_LoRa;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5CCE
+Path = /59388959
+Reference = LumS1;
+ValeurCmp = LuxSensor_TSL2561;
+IdModule  = pfe:Block_terminal_X5;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5CDC
+Path = /5938895A
+Reference = MoistS1;
+ValeurCmp = Moisture_Sensor;
+IdModule  = pfe:Block_terminal_X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5CED
+Path = /5938895B
+Reference = OzS1;
+ValeurCmp = Ozone_sensor;
+IdModule  = pfe:Block_terminal_X6;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5CF7
+Path = /5938BA9B
+Reference = PB1;
+ValeurCmp = Main_reset;
+IdModule  = pfe:PushButton;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D03
+Path = /596CD939
+Reference = Q1;
+ValeurCmp = 2N3904;
+IdModule  = pfe:Transistor_TO-92;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D0E
+Path = /5966B452
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = pfe:Axial_resistor_0p25W;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D19
+Path = /59693474
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = pfe:Axial_resistor_0p25W;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D24
+Path = /59672CB3
+Reference = R3;
+ValeurCmp = 150;
+IdModule  = pfe:Axial_resistor_0p25W;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D2F
+Path = /59697ED5
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = pfe:Axial_resistor_0p25W;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D3A
+Path = /5938B0E1
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = pfe:Axial_resistor_0p25W;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D48
+Path = /5938187D
+Reference = TempHumS1;
+ValeurCmp = Temperature_humidity_Sensor_DHT11;
+IdModule  = pfe:Block_terminal_X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D56
+Path = /5938895E
+Reference = TempS1;
+ValeurCmp = temperature_sensor_DS18B20;
+IdModule  = pfe:Block_terminal_X3;
+EndCmp
+
+BeginCmp
+TimeStamp = 596D5D7F
+Path = /59691DC2
+Reference = uC1;
+ValeurCmp = arduinoNano;
+IdModule  = pfe:ArduinoNano;
+EndCmp
+
+EndListe

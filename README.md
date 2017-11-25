@@ -1,4 +1,4 @@
-
+This is the project as handed out by the previous team. It used a Arduino node rather than a Raspberry Pi one.
 
 # This is the BELIOT project
 This is an Internet Of Things project.
